@@ -4,7 +4,7 @@ import TaskList from './components/TaskList'
 import './styles/global.css'
 import styles from './App.module.css'
 
-const App = () => (
+const App: React.FC = () => (
   <TaskProvider>
     <div className={styles.appContainer}>
       <div className={styles.appContent}>
@@ -16,4 +16,4 @@ const App = () => (
   </TaskProvider>
 )
 
-export default App
+export default App 
